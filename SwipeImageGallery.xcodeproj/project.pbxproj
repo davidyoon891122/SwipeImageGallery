@@ -13,6 +13,12 @@
 		AD49BF8A2699A367005DAB7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD49BF882699A367005DAB7E /* Main.storyboard */; };
 		AD49BF8C2699A367005DAB7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD49BF8B2699A367005DAB7E /* Assets.xcassets */; };
 		AD49BF8F2699A367005DAB7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD49BF8D2699A367005DAB7E /* LaunchScreen.storyboard */; };
+		AD49BF9D2699A618005DAB7E /* 03.png in Resources */ = {isa = PBXBuildFile; fileRef = AD49BF972699A617005DAB7E /* 03.png */; };
+		AD49BF9E2699A618005DAB7E /* 05.png in Resources */ = {isa = PBXBuildFile; fileRef = AD49BF982699A618005DAB7E /* 05.png */; };
+		AD49BF9F2699A618005DAB7E /* 06.png in Resources */ = {isa = PBXBuildFile; fileRef = AD49BF992699A618005DAB7E /* 06.png */; };
+		AD49BFA02699A618005DAB7E /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = AD49BF9A2699A618005DAB7E /* 01.png */; };
+		AD49BFA12699A618005DAB7E /* 04.png in Resources */ = {isa = PBXBuildFile; fileRef = AD49BF9B2699A618005DAB7E /* 04.png */; };
+		AD49BFA22699A618005DAB7E /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = AD49BF9C2699A618005DAB7E /* 02.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		AD49BF8B2699A367005DAB7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD49BF8E2699A367005DAB7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD49BF902699A367005DAB7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD49BF972699A617005DAB7E /* 03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 03.png; sourceTree = "<group>"; };
+		AD49BF982699A618005DAB7E /* 05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 05.png; sourceTree = "<group>"; };
+		AD49BF992699A618005DAB7E /* 06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 06.png; sourceTree = "<group>"; };
+		AD49BF9A2699A618005DAB7E /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.png; sourceTree = "<group>"; };
+		AD49BF9B2699A618005DAB7E /* 04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 04.png; sourceTree = "<group>"; };
+		AD49BF9C2699A618005DAB7E /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 		AD49BF812699A367005DAB7E /* SwipeImageGallery */ = {
 			isa = PBXGroup;
 			children = (
+				AD49BF962699A5FD005DAB7E /* images */,
 				AD49BF822699A367005DAB7E /* AppDelegate.swift */,
 				AD49BF842699A367005DAB7E /* SceneDelegate.swift */,
 				AD49BF862699A367005DAB7E /* ViewController.swift */,
@@ -65,6 +78,19 @@
 				AD49BF902699A367005DAB7E /* Info.plist */,
 			);
 			path = SwipeImageGallery;
+			sourceTree = "<group>";
+		};
+		AD49BF962699A5FD005DAB7E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				AD49BF9A2699A618005DAB7E /* 01.png */,
+				AD49BF9C2699A618005DAB7E /* 02.png */,
+				AD49BF972699A617005DAB7E /* 03.png */,
+				AD49BF9B2699A618005DAB7E /* 04.png */,
+				AD49BF982699A618005DAB7E /* 05.png */,
+				AD49BF992699A618005DAB7E /* 06.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +150,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD49BF9E2699A618005DAB7E /* 05.png in Resources */,
+				AD49BF9F2699A618005DAB7E /* 06.png in Resources */,
+				AD49BF9D2699A618005DAB7E /* 03.png in Resources */,
 				AD49BF8F2699A367005DAB7E /* LaunchScreen.storyboard in Resources */,
 				AD49BF8C2699A367005DAB7E /* Assets.xcassets in Resources */,
+				AD49BFA12699A618005DAB7E /* 04.png in Resources */,
 				AD49BF8A2699A367005DAB7E /* Main.storyboard in Resources */,
+				AD49BFA02699A618005DAB7E /* 01.png in Resources */,
+				AD49BFA22699A618005DAB7E /* 02.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
