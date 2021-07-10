@@ -41,7 +41,8 @@ class ViewController: UIViewController {
         swipeLeft.direction = UISwipeGestureRecognizer.Direction.left
         self.view.addGestureRecognizer(swipeLeft)
         
-        
+        let pinch = UIPinchGestureRecognizer(target: self, action: #selector(ViewController.doPinch(_:)))
+        self.view.addGestureRecognizer(pinch)
         
         imageView.image = imgGallery[0]
         
@@ -51,6 +52,12 @@ class ViewController: UIViewController {
         print("current page : \(pageView.currentPage)")
         imageView.image = imgGallery[pageView.currentPage]
         
+    }
+    
+    
+    @objc func doPinch(_ pinch: UIPinchGestureRecognizer) {
+        imageView.transform = imageView.transform.scaledBy(x: pinch.scale, y: pinch.scale)
+        pinch.scale = 1
     }
     
     @objc func respondToSwipeGesture(_ gesture: UIGestureRecognizer) {
